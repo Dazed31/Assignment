@@ -4,31 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Darren | About</title>
+    <link rel="stylesheet" href="about.css">
 </head>
 <body>
-     <nav> 
-     <a href="index.html">Home |</a>
-     <a href="about.html">About |</a>
-     <a href="contact.html">Contacts</a>
+
+    <nav> 
+        <ul class="tick-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+        </ul>
     </nav>
 
     <hr>
+    
+    <h1 class="fs-xlarge"><strong><u>About me</u></strong></h1>
+    <p class="fs-medium" id="introduction">
+        My name is Darren. I am learning software engineering at Moringa School. I think I enjoy coding and am really fond of music.
+    </p> <hr>
 
-    <h1><strong><u>About me</u></strong></h1>
-    <p>My name is Darren. I am learning software engineering at Moringa School, I think I enjoy coding and really fond of music </p>
 
-    <h2><em>Skills</em></h2>
-    <ul>
-        <li>HTML</li>
-        <li>Small understanding on Python</li>
-        <li>CSS</li>
-    </ul>
-
-    <h2><em>Hobbies</em></h2>
-    <ul>
-        <li>Playing guitar</li>
-        <li>Listening to music</li>
-        <li>Playing basketball even thoughi haven't played in a while</li>
-    </ul>
+    
+    <div class="about-container ">
+        <img src="image/cat.jpg" alt="Photo">
+   
+       <div class="title-container">
+        <h2 class="fs-large"><em>Skills</em></h2>
+        <ul class="fs-medium">
+            <li>HTML</li>
+            <li>Small understanding of Python</li>
+            <li>CSS</li>
+         </ul>
+       </div>
+       <div class="title-container"> 
+        <h2 class="fs-large"><em>Hobbies</em></h2>
+        <ul class="fs-medium">
+             <li>Playing guitar</li>
+            <li>Listening to music</li>
+            <li>Playing basketball even though <br> I haven't played in a while</li>
+         </ul>
+       </div>
+    </div>
 </body>
 </html>

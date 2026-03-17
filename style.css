@@ -1,0 +1,38 @@
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+#description {
+    text-align: center;
+}
+
+.Feature-card {
+    border: 1px solid #800020;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 150px;
+    border-radius: 15%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h3 {
+    color: #800020;
+    font-style:italic;
+    text-decoration: underline dotted 3px;
+}
